@@ -292,8 +292,9 @@ img.rightreservationbigger {
 }
 
 .top-right {
-  position: absolute;
-  margin-top: -30px;
+  position: fixed;
+  float: left;
+  padding-right: -20px;
 }
 
 .navbar {
