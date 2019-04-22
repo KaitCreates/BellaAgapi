@@ -360,6 +360,10 @@ img.rightreservationbigger {
 }
 
 @media screen and (max-width: 620px) {
+   .top-right {
+    position: absolute;
+    margin-top: -30px;
+  }
   .top-left {
     font-size: 200%;
     padding-top: 30px;
