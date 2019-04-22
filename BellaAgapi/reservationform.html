@@ -3,6 +3,7 @@
   
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bella Agápi Bed and Breakfast - Reservation</title>
     <link rel="stylesheet" href="bellaagapistylesheet.css"> 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
@@ -19,7 +20,7 @@
 </div>
 </header>
 
-<div class="navbar">
+
 <ul class="navigation">
   <li class="navigation"><a href="index.html">Home</a></li>
   <li class="navigation"><a href="about.html">About</a></li>
@@ -32,7 +33,27 @@
   <li class="navigation"><a href="whattodo.html">What To Do In Santorini</a></li>
   <li class="navigation"><a href="location.html">Location</a></li>
 </ul>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="poseidon.html">Poseidon</a>
+      <a href="athena.html">Athena</a>
+      <a href="zeus.html">Zeus</a>
+      <a href="reservationform.html">Reservations</a>
+      <a href="breakfastmenu.html">Breakfast Menu</a>
+      <a href="customerreviews.html">Customer Reviews</a>
+      <a href="whattodo.html">Santorini</a>
+      <a href="location.html">Location</a>
+    </div>
+  </div> 
 </div>
+
 <h2>Book Your Reservation</h2>
 
 <h3>This is where the fun begins!</h3>
@@ -70,7 +91,7 @@
 </select>
 </p>
 
-<img class="rightreservationbigger" src="images/dinner.jpg" alt="People Cheering with Wine Glasses Over Food">
+<img class="rightreservationbigger" src="images/dinner.jpg" alt="People Cheering with Wine Glasses Over Food"><br>
 Dietary Restrictions:<br>
   <textarea name="restrictions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long"></textarea>
 
