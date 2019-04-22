@@ -6,6 +6,7 @@ body {
 HTML {
   /* background-color: #F9F2E8; */
   background-color: #F9F5EF
+  
 }
 
 /* @font-face {
@@ -134,7 +135,7 @@ ul.navigation {
   letter-spacing: .05em;
   border-bottom: 1px solid gray;
   font-weight: lighter;
-
+  flex-wrap: wrap;
 }
 
 li.navigation {
@@ -147,6 +148,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  flex: 1 1 50%;
 
 }
 
@@ -167,11 +169,10 @@ li a:hover {
 img {
   border-radius: 8px;
   height: auto;
-  width: 50%;
+  max-width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   border: 1px solid gray;
   position: static;
 }
@@ -245,8 +246,7 @@ p.form {
   font-size: 100%;
 }
 
-li {
-  list-style-type: none;
+list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -268,8 +268,8 @@ img.rightreservation {
 
 img.rightreservationbigger {
   border-radius: 8px;
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
   float: right;
   border: 1px solid gray;
   margin-right: 50px;
@@ -290,3 +290,236 @@ img.rightreservationbigger {
   font-size: 400%;
   font-weight: bold;
 }
+
+.top-right {
+  position: absolute;
+  margin-top: -30px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  display: none;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 620px) {
+  .top-left {
+    font-size: 200%;
+    padding-top: 30px;
+  }
+  .container {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+  }
+  .navigation {
+    display: none;
+  }
+  p.info {
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  img.rightreservation, img.rightreservationbigger {
+    display: none;
+  }
+  img.right {
+      border-radius: 8px;
+      height: 35%;
+      width: 35%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid gray;
+      margin-bottom: 5px;
+  }
+  img.left {
+      border-radius: 8px;
+      height: 45%;
+      width: 45%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2px;
+      border: 1px solid gray;
+  }
+  img.rightbigger {
+      border-radius: 8px;
+      height: 40%;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      border: 1px solid gray;
+  }
+  img.rightbig {
+      border-radius: 8px;
+      height: 40%;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      border: 1px solid gray;
+  }
+  form {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
+    display: inline;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #1C2833;
+    text-align: cener;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: white;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: white;
+    font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #165FAD;
+    color: white;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1C2833;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: white;
+    font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
+  }
+ /* .dropdown-content a:hover {
+    background-color: #165FAD;
+    color: white; */
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  li a {
+  display: inline-block;
+  color: #1C2833;
+  text-align: center;
+  padding-left: 70px;
+  text-decoration: none;
+  flex: 1 1 50%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  li a {
+  display: inline-block;
+  color: #1C2833;
+  text-align: center;
+  padding-left: 75px;
+  text-decoration: none;
+  flex: 1 1 50%;
+}
+  img.rightbigger {
+    position: static;
+    float: right;
+  }
+  p.info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  h2 {
+  margin-top: 60px;
+  }
+  h4 {
+    margin-top: 120px;
+    position: static;
+  }
+}
+  
