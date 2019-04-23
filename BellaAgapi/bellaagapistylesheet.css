@@ -1,14 +1,10 @@
 @charset "UTF-8"
-
 body {
 }
-
 HTML {
   /* background-color: #F9F2E8; */
-  background-color: #F9F5EF
-  
+  background-color: #F9F5EF  
 }
-
 /* @font-face {
   font-family: 'quicksand';
   src: url(fonts/quicksand-light.ttf);
@@ -16,7 +12,6 @@ HTML {
   src: url(fonts/quicksand-bold.ttf);
   src: url(fonts/quicksand-medium.ttf);
 }
-
 @font-face {
   font-family: 'lora';
   src: url(fonts/lora-regular.ttf);
@@ -24,7 +19,6 @@ HTML {
   src: url(fonts/lora-bold.ttf);
   src: url(fonts/lora-bolditalic.ttf);
 }
-
 @font-face {
   font-family: 'raleway';
   src: url(fonts/raleway-extralight.ttf);
@@ -37,12 +31,10 @@ HTML {
   src: url(fonts/raleway-thin.ttf);
   src: url(fonts/raleway-black.ttf);
 }
-
 @font-face {
   font-family: 'avenir';
   src: url(fonts/avenir.ttc);
 } */
-
 header {
   background: url(images/santorini.png);
   background-repeat: no-repeat;
@@ -56,7 +48,6 @@ header {
   margin: -8px;
   position: static;
 }
-
 footer {
   font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
   font-weight: lighter;
@@ -65,34 +56,29 @@ footer {
   text-align: center;
   margin-bottom: 40px;
 }
-
 h2 {
   font-family: 'Raleway', Avenir, 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: xx-large;
   text-align: center;
 }
-
 h3 {
   font-family: 'Lora', serif;
   font-weight: 200;
   text-align: center;
   font-size: 150%;
 }
-
 h4 {
   font-family: 'Lora', serif;
   font-weight: lighter;
   text-align: center;
   font-size: 150%;
 }
-
 p {
   font-family: 'Quicksand';
   text-align: center;
   font-size: 100%;
 }
-
 p.info {
   font-family: 'Quicksand', Avenir, 'Raleway', sans-serif;
   color: #165FAD;
@@ -113,17 +99,13 @@ p.info {
   margin-right: -20px;
   border-radius: 5px;
 }
-
 .names {
   font-weight: bold;
   color: #165FAD;
 }
-
 ul.reservation {
   list-style-type: none;
-  
 }
-
 ul.navigation {
   list-style-type: none;
   margin: 0;
@@ -137,11 +119,9 @@ ul.navigation {
   font-weight: lighter;
   flex-wrap: wrap;
 }
-
 li.navigation {
   float: left;
 }
-
 li a {
   display: inline-block;
   color: #1C2833;
@@ -149,14 +129,11 @@ li a {
   padding: 14px 10px;
   text-decoration: none;
   flex: 1 1 50%;
-
 }
-
 li a:hover {
   background-color: #165FAD;
   color: white;
 }
-
 .textcenter {
   margin: 0 auto;
   margin-left: auto;
@@ -165,7 +142,6 @@ li a:hover {
   width: 75%;
   border-width: 100%;
 }
-
 img {
   border-radius: 8px;
   height: auto;
@@ -176,7 +152,6 @@ img {
   border: 1px solid gray;
   position: static;
 }
-
 img.right {
   border-radius: 8px;
   height: 20%;
@@ -185,7 +160,6 @@ img.right {
   border: 1px solid gray;
   position: static;
 }
-
 img.left {
   border-radius: 8px;
   height: 25%;
@@ -195,7 +169,6 @@ img.left {
   margin-right: 5px;
   position: static;
 }
-
 img.rightbigger {
   border-radius: 8px;
   height: 30%;
@@ -204,7 +177,6 @@ img.rightbigger {
   border: 1px solid gray;
   position: static;
 }
-
 img.rightbig {
   border-radius: 8px;
   height: 25%;
@@ -214,7 +186,6 @@ img.rightbig {
   margin-left: 5px;
   position: static;
 }
-
 a.links {
   font-variant-caps: small-caps;
   font-size: 150%;
@@ -222,7 +193,6 @@ a.links {
   display: block;
   font-family: 'Quicksand', 'Raleway', Avenir, sans-serif;
 }
-
 img.todo {
   border-radius: 8px;
   height: 40%;
@@ -234,28 +204,23 @@ img.todo {
   margin-bottom: 5px;
   position: static;
 }
-
 form {
   font-family: 'Quicksand', 'Raleway', Avenir, sans-serif;
   margin-left: 100px;
 }
-
 p.form {
   font-family: 'Quicksand';
   text-align: left;
   font-size: 100%;
 }
-
 list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 input[type=submit] {
   width: 10em;  height: 2em;
   font-size: 150%;
 }
-
 img.rightreservation {
   border-radius: 8px;
   height: 30%;
@@ -265,7 +230,6 @@ img.rightreservation {
   margin-right: 50px;
   position: static;
 }
-
 img.rightreservationbigger {
   border-radius: 8px;
   height: 30%;
@@ -275,13 +239,11 @@ img.rightreservationbigger {
   margin-right: 50px;
   position: static;
 }
-
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
-
 .top-left {
   position: absolute;
   top: -90px;
@@ -290,20 +252,17 @@ img.rightreservationbigger {
   font-size: 400%;
   font-weight: bold;
 }
-
 .top-right {
   position: static;
   float: left;
   padding-right: -20px;
 }
-
 .navbar {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
   display: none;
 }
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -312,12 +271,10 @@ img.rightreservationbigger {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 .dropdown .dropbtn {
   font-size: 16px; 
   border: none;
@@ -328,11 +285,9 @@ img.rightreservationbigger {
   font-family: inherit;
   margin: 0;
 }
-
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -341,7 +296,6 @@ img.rightreservationbigger {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -350,15 +304,12 @@ img.rightreservationbigger {
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 @media screen and (max-width: 620px) {
    .top-right {
     position: absolute;
@@ -490,7 +441,6 @@ img.rightreservationbigger {
     display: block;
   }
 }
-
 @media screen and (min-width: 1366px) {
   li a {
   display: inline-block;
@@ -501,7 +451,6 @@ img.rightreservationbigger {
   flex: 1 1 50%;
   }
 }
-
 @media screen and (min-width: 1920px) {
   li a {
   display: inline-block;
